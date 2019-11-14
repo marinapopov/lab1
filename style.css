@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div {
+	border:5px dashed red;
+	width: 50%;
+	height: 120px;
+	text-align: right;
+	font-weight: bold;
+}
+
+img {
+	border: 5px solid green;
+}
+
+ul {
+	background: darkred;
+	width: 100%;
+	line-height: 30px;
+}
+
+ul li {
+	color: white;
+	font-weight: bold;
+	margin: 15px 15px;
+	list-style: none;
+	display: inline-block;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 2px 15px;
+}
+
+ul li:nth-child(1) a:hover {
+	background: blue;
+	border-radius: 15px;
+	color: grey;
+}
